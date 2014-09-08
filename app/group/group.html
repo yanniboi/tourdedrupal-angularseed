@@ -1,0 +1,21 @@
+<p>This is the partial for group.</p>
+
+<google-map center="map.center" draggable="true" zoom="map.zoom">
+      <marker
+        ng-repeat="ping in pings"
+        coords="{ latitude: ping.lat, longitude: ping.lng }" 
+        idKey="ping.$id">
+          
+      </marker>
+
+ <polyline path="pings"
+ 	geodesic='polyline.geodesic'
+ 	fit="false"
+ 	editable="polyline.editable"
+ 	draggable="polyline.draggable"
+ 	icons='polyline.icons'
+ 	stroke="polyline.stroke"
+ 	visible='polyline.visible'>
+ </polyline>
+
+</google-map>      

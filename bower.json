@@ -1,0 +1,17 @@
+{
+  "name": "tourdedrupal-angularseed",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/yanniboi/tourdedrupal-angularseed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0",
+    "angularfire": "~0.8.2",
+    "angular-google-maps": "~1.2.1"
+  }
+}
